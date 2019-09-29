@@ -1,0 +1,15 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px;
+  background-color: #fff;
+  border-bottom: 1px solid rgb(224, 224, 224);
+  .left {
+    text-align: left;
+    width: 200px;
+  }
+  .right {
+    flex: 1;
+    text-align: right;
+  }
+}

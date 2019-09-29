@@ -1,0 +1,15 @@
+.sider {
+  width: 256px !important;
+  max-width: 256px !important;
+  min-width: 256px !important;
+  box-shadow: 2px 0 6px rgba(0, 21, 41, 0.35);
+  .logo {
+    text-align: center;
+    height: 64;
+    .text {
+      color: rgb(243, 243, 243);
+      font-size: 40px;
+      font-weight: bold;
+    }
+  }
+}

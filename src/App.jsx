@@ -1,13 +1,15 @@
 import React from "react";
 import "./App.scss";
-import { Button } from "antd";
-import Signin from "@/pages/Signin";
+import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+// import Signin from "@/pages/Signin";
+import Home from "@/pages/Home";
 
 function App() {
   return (
     <div className="App">
-      <Button type="primary">Button</Button>
-      <Signin />
+      <Router>
+        <Home path="/" exact component={Home} />
+      </Router>
     </div>
   );
 }
